@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-22T12:09:08.227Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lz0mAFNLmFGFZklaZSTP" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-22T12:37:36.305Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vzJswKH35nka6Es421bY" version="21.6.5" type="github">
   <diagram name="Page-1" id="x5xp1XZ7a-2D_bd_AiX4">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,8 +41,34 @@
         <mxCell id="4gBNhnp5yh9gDgzuSYNF-11" value="Api Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="450" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="4gBNhnp5yh9gDgzuSYNF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;startFill=1;" edge="1" parent="1" source="4gBNhnp5yh9gDgzuSYNF-14" target="4gBNhnp5yh9gDgzuSYNF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4gBNhnp5yh9gDgzuSYNF-16" value="Authenticates&amp;nbsp;&lt;br&gt;all requests" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4gBNhnp5yh9gDgzuSYNF-15">
+          <mxGeometry x="0.0063" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4gBNhnp5yh9gDgzuSYNF-14" value="Acl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="60" width="200" height="60" as="geometry" />
+          <mxGeometry x="520" y="60" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4gBNhnp5yh9gDgzuSYNF-17" value="Stamp Duty" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="155" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4gBNhnp5yh9gDgzuSYNF-18" value="Land Register" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4gBNhnp5yh9gDgzuSYNF-19" value="Transfer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4gBNhnp5yh9gDgzuSYNF-20" value="Payment Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4gBNhnp5yh9gDgzuSYNF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4gBNhnp5yh9gDgzuSYNF-21" target="4gBNhnp5yh9gDgzuSYNF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4gBNhnp5yh9gDgzuSYNF-21" value="RabbitMq" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="60" width="80" height="410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
