@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T13:14:44.373Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="S7_2l-agi7chzJ4Q1YXL" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T13:18:00.121Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="kmEMFn4bV2S3Wzdwi3VU" version="21.6.5" type="github">
   <diagram name="Page-1" id="abbKt3IP7O4MDkvVQpnk">
     <mxGraphModel dx="2899" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -39,9 +39,6 @@
         <mxCell id="GB8iZrh5LPxIBr14tjGq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="GB8iZrh5LPxIBr14tjGq-2" source="GB8iZrh5LPxIBr14tjGq-3" target="GB8iZrh5LPxIBr14tjGq-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GB8iZrh5LPxIBr14tjGq-14" value="After 60 days, the applicant submits the gazette notice" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="GB8iZrh5LPxIBr14tjGq-2">
-          <mxGeometry x="1900" y="359.495" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="GB8iZrh5LPxIBr14tjGq-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=openThin;endFill=0;" edge="1" parent="GB8iZrh5LPxIBr14tjGq-2" source="GB8iZrh5LPxIBr14tjGq-89" target="GB8iZrh5LPxIBr14tjGq-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -52,7 +49,7 @@
           <mxGeometry x="3005" y="31" width="130" height="79" as="geometry" />
         </mxCell>
         <mxCell id="GB8iZrh5LPxIBr14tjGq-48" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;DLV&lt;/font&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=78;fillColor=#d5e8d4;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="800" width="3280" height="480" as="geometry" />
+          <mxGeometry x="-800" y="800" width="3280" height="481" as="geometry" />
         </mxCell>
         <mxCell id="GB8iZrh5LPxIBr14tjGq-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GB8iZrh5LPxIBr14tjGq-48" source="GB8iZrh5LPxIBr14tjGq-72" target="GB8iZrh5LPxIBr14tjGq-76">
           <mxGeometry relative="1" as="geometry" />
@@ -77,11 +74,11 @@
         <mxCell id="GB8iZrh5LPxIBr14tjGq-78" value="Provide Final Land Value and Approve" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="GB8iZrh5LPxIBr14tjGq-48">
           <mxGeometry x="2880" y="361.005" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GB8iZrh5LPxIBr14tjGq-62" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="GB8iZrh5LPxIBr14tjGq-48">
-          <mxGeometry x="280" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="GB8iZrh5LPxIBr14tjGq-113" value="Process&lt;br&gt;Type" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="GB8iZrh5LPxIBr14tjGq-48">
           <mxGeometry x="2900" y="109.99499999999999" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GB8iZrh5LPxIBr14tjGq-120" value="Checks application.&lt;br&gt;&lt;br&gt;Can Approve, Return, Reject" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="GB8iZrh5LPxIBr14tjGq-48">
+          <mxGeometry x="270" y="150" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GB8iZrh5LPxIBr14tjGq-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;VALUER&lt;br&gt;&lt;/font&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=78;fillColor=#d5e8d4;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-800" y="1300" width="3280" height="700" as="geometry" />
@@ -144,6 +141,9 @@
         <mxCell id="GB8iZrh5LPxIBr14tjGq-83" value="&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Generate Office Report&lt;/span&gt;&lt;br&gt;    &lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F6EFDA;strokeColor=#fcd19c;" vertex="1" parent="GB8iZrh5LPxIBr14tjGq-19">
           <mxGeometry x="1100" y="205.9999999999999" width="150" height="109" as="geometry" />
         </mxCell>
+        <mxCell id="GB8iZrh5LPxIBr14tjGq-119" value="Checks application.&lt;br&gt;&lt;br&gt;Can Place On Hold, Approve, Return to DLV" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="GB8iZrh5LPxIBr14tjGq-19">
+          <mxGeometry x="280" y="202.01" width="160" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="GB8iZrh5LPxIBr14tjGq-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GB8iZrh5LPxIBr14tjGq-69" target="GB8iZrh5LPxIBr14tjGq-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -177,8 +177,8 @@
         <mxCell id="GB8iZrh5LPxIBr14tjGq-107" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="GB8iZrh5LPxIBr14tjGq-93">
           <mxGeometry x="2800" y="189.99499999999995" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GB8iZrh5LPxIBr14tjGq-108" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Output&lt;br&gt;- Valuation certificate&lt;br&gt;- Land Value&lt;br&gt;- Invoices&lt;br&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d0cee2;strokeColor=#56517e;strokeWidth=1;size=20;align=left;opacity=50;" vertex="1" parent="GB8iZrh5LPxIBr14tjGq-93">
-          <mxGeometry x="2755" y="20" width="170" height="109" as="geometry" />
+        <mxCell id="GB8iZrh5LPxIBr14tjGq-108" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Output&lt;br&gt;&lt;br&gt;- Valuation amount for stamp duty&amp;nbsp;&lt;br&gt;&lt;br&gt;- Land rents for Land rent determination&lt;br&gt;&lt;br&gt;- Invoices&lt;br&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d0cee2;strokeColor=#56517e;strokeWidth=1;size=20;align=left;opacity=50;" vertex="1" parent="GB8iZrh5LPxIBr14tjGq-93">
+          <mxGeometry x="2730" y="10" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="GB8iZrh5LPxIBr14tjGq-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="GB8iZrh5LPxIBr14tjGq-93" source="GB8iZrh5LPxIBr14tjGq-109" target="GB8iZrh5LPxIBr14tjGq-98">
           <mxGeometry relative="1" as="geometry" />
