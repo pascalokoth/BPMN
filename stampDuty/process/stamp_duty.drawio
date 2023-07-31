@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T16:10:34.552Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Aww4WgHOfRXhpgYLljTX" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-31T16:13:31.357Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="DwH17tfo26OvZkpuTS-I" version="21.6.5" type="github">
   <diagram name="Page-1" id="wiHoxaamiO45fGIozESU">
-    <mxGraphModel dx="1804" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2122" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,14 +77,19 @@
         <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-25" value="Love &amp;amp;&amp;nbsp;&lt;br&gt;affection" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="922.5" y="590" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjcQ7HL3ElRiH-m9O8MQ-27" target="bjcQ7HL3ElRiH-m9O8MQ-29">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjcQ7HL3ElRiH-m9O8MQ-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="820" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-27" value="Valuation" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1310" y="790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-29" value="Valuation" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="790" width="120" height="60" as="geometry" />
+        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=blockThin;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="bjcQ7HL3ElRiH-m9O8MQ-31" target="bjcQ7HL3ElRiH-m9O8MQ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-31" value="- Valuation amount&lt;br&gt;- Valuation certificate" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="950" width="130" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
