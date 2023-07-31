@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T16:34:01.091Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0B-j5YqUlp-5r0D-nByz" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-31T16:34:39.065Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="YWvWM_GNKE6DJZWI4I-E" version="21.6.5" type="github">
   <diagram name="Page-1" id="wiHoxaamiO45fGIozESU">
     <mxGraphModel dx="1590" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -58,6 +58,9 @@
         </mxCell>
         <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-15" value="LRA 33,35,36,43,44,&lt;br&gt;45, 48, 49, 52, 60, 61, 61A, 66A, Transfer of lease, Long term lease" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="640" y="775" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjcQ7HL3ElRiH-m9O8MQ-18" target="bjcQ7HL3ElRiH-m9O8MQ-77">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-18" value="LRA 39, 42, 44, 46,&lt;br&gt;&amp;nbsp;50, 51" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="370" y="1020" width="120" height="60" as="geometry" />
@@ -169,6 +172,9 @@
         </mxCell>
         <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-76" value="- Stampduty amount&lt;br&gt;- Valuation certificate" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
           <mxGeometry x="1490" y="60" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-77" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1010" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
