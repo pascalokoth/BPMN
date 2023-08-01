@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T16:34:39.065Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="YWvWM_GNKE6DJZWI4I-E" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-01T06:00:29.384Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="XKllaei5iQm7lok-w_XY" version="21.6.5" type="github">
   <diagram name="Page-1" id="wiHoxaamiO45fGIozESU">
-    <mxGraphModel dx="1590" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1304" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,8 +53,10 @@
         <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-11" value="Transfer&lt;br&gt;Type ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="380" y="770" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjcQ7HL3ElRiH-m9O8MQ-15" target="bjcQ7HL3ElRiH-m9O8MQ-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bjcQ7HL3ElRiH-m9O8MQ-15" target="bjcQ7HL3ElRiH-m9O8MQ-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="820" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-15" value="LRA 33,35,36,43,44,&lt;br&gt;45, 48, 49, 52, 60, 61, 61A, 66A, Transfer of lease, Long term lease" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="640" y="775" width="150" height="90" as="geometry" />
@@ -65,23 +67,11 @@
         <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-18" value="LRA 39, 42, 44, 46,&lt;br&gt;&amp;nbsp;50, 51" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="370" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjcQ7HL3ElRiH-m9O8MQ-21" target="bjcQ7HL3ElRiH-m9O8MQ-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjcQ7HL3ElRiH-m9O8MQ-21" target="bjcQ7HL3ElRiH-m9O8MQ-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-21" value="Consideration&lt;br&gt;amount ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="910" y="765" width="105" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjcQ7HL3ElRiH-m9O8MQ-23" target="bjcQ7HL3ElRiH-m9O8MQ-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-23" value="NIL / Amount" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="790" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-25" value="Love &amp;amp;&amp;nbsp;&lt;br&gt;affection" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="922.5" y="590" width="80" height="80" as="geometry" />
+          <mxGeometry x="980" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjcQ7HL3ElRiH-m9O8MQ-27" target="bjcQ7HL3ElRiH-m9O8MQ-33">
           <mxGeometry relative="1" as="geometry" />
