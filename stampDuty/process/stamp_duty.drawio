@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T07:08:52.178Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="-JbHRIbQlNRytM9gSRow" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-01T07:10:06.631Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6DWX3UGaC-1LsWUjvuxl" version="21.6.5" type="github">
   <diagram name="Page-1" id="wiHoxaamiO45fGIozESU">
-    <mxGraphModel dx="3056" dy="1215" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,10 +58,10 @@
             <mxPoint x="1212.9999999999995" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-23" value="NIL / Amount" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="bjcQ7HL3ElRiH-m9O8MQ-79">
+        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-23" value="Forwards to valuation" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="bjcQ7HL3ElRiH-m9O8MQ-79">
           <mxGeometry x="960" y="755" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="bjcQ7HL3ElRiH-m9O8MQ-79" source="bjcQ7HL3ElRiH-m9O8MQ-15" target="bjcQ7HL3ElRiH-m9O8MQ-23">
+        <mxCell id="bjcQ7HL3ElRiH-m9O8MQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="bjcQ7HL3ElRiH-m9O8MQ-79" source="bjcQ7HL3ElRiH-m9O8MQ-15" target="bjcQ7HL3ElRiH-m9O8MQ-23">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="910" y="380" as="targetPoint" />
           </mxGeometry>
