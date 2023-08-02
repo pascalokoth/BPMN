@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T14:51:10.825Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="GRqcI19c_1WxG1zn7iwm" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T14:53:20.161Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="bAo4cZDViL-JxbTjndGT" version="21.6.5" type="github">
   <diagram name="Page-1" id="O1a9XfuB64NEKXVq045z">
     <mxGraphModel dx="1590" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -75,6 +75,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-72" value="Exempt&lt;br&gt;Stamp Duty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FqMO8VPMuKaaY1kg_BFP-67">
+          <mxGeometry x="0.7561" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-22" source="FqMO8VPMuKaaY1kg_BFP-7" target="FqMO8VPMuKaaY1kg_BFP-63">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -83,8 +88,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-73" value="Return to&amp;nbsp;&lt;br&gt;Applicant" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FqMO8VPMuKaaY1kg_BFP-68">
+          <mxGeometry x="0.619" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-22" source="FqMO8VPMuKaaY1kg_BFP-7" target="FqMO8VPMuKaaY1kg_BFP-57">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-74" value="Nominal&lt;br&gt;Stamp Duty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FqMO8VPMuKaaY1kg_BFP-69">
+          <mxGeometry x="0.3446" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-22" source="FqMO8VPMuKaaY1kg_BFP-7" target="FqMO8VPMuKaaY1kg_BFP-54">
           <mxGeometry relative="1" as="geometry">
@@ -94,12 +109,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-75" value="Not&amp;nbsp;&lt;br&gt;Chargeable" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FqMO8VPMuKaaY1kg_BFP-70">
+          <mxGeometry x="0.5897" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-22" source="FqMO8VPMuKaaY1kg_BFP-7" target="FqMO8VPMuKaaY1kg_BFP-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="420" y="420" />
               <mxPoint x="420" y="740" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-76" value="Forward for&amp;nbsp;&lt;br&gt;Assessment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FqMO8VPMuKaaY1kg_BFP-71">
+          <mxGeometry x="0.7182" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-7" value="Action ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-22">
