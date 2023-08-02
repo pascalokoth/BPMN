@@ -1,68 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T14:53:20.161Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="bAo4cZDViL-JxbTjndGT" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T15:03:38.354Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0uhoNdewcIiov-DDIqVH" version="21.6.5" type="github">
   <diagram name="Page-1" id="O1a9XfuB64NEKXVq045z">
-    <mxGraphModel dx="1590" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="1317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-2" value="Head of Stamp Duty" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=80;fillColor=#d5e8d4;strokeColor=#030303;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="60" y="440" width="2000" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-3" value="Views&amp;nbsp;&lt;br&gt;process" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-2">
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-3" value="View&lt;br&gt;process" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-2">
           <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-4" value="Transfer &amp;amp; Other&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Processes" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-2">
-          <mxGeometry x="560" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-5" value="Transfer&lt;br&gt;Type ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-2">
-          <mxGeometry x="770" y="60" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-2" source="FqMO8VPMuKaaY1kg_BFP-4" target="FqMO8VPMuKaaY1kg_BFP-5">
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-2" source="FqMO8VPMuKaaY1kg_BFP-99" target="FqMO8VPMuKaaY1kg_BFP-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-10" value="LRA 39, 42, 44, 46,&lt;br&gt;&amp;nbsp;50, 51 &amp;amp; POA, LRA 65" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-2">
-          <mxGeometry x="1060" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-99" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-2">
+          <mxGeometry x="1620" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-2" source="FqMO8VPMuKaaY1kg_BFP-5" target="FqMO8VPMuKaaY1kg_BFP-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-12" value="Nominal&lt;br&gt;Duty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FqMO8VPMuKaaY1kg_BFP-11">
-          <mxGeometry x="-0.2889" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-13" value="LRA 33,35,36,43,44,&lt;br&gt;45, 48, 49, 52, 60, 61, 61A, 66A, Transfer of lease, Long term lease &amp;amp; Grants of easement&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;( consideration amount)" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-2">
-          <mxGeometry x="745" y="210" width="150" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-2" source="FqMO8VPMuKaaY1kg_BFP-5" target="FqMO8VPMuKaaY1kg_BFP-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-15" value="Full&lt;br&gt;Duty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FqMO8VPMuKaaY1kg_BFP-14">
-          <mxGeometry x="-0.2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-2" source="FqMO8VPMuKaaY1kg_BFP-10" target="FqMO8VPMuKaaY1kg_BFP-21">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1212.9999999999995" y="540" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=50;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-2" source="FqMO8VPMuKaaY1kg_BFP-18" target="FqMO8VPMuKaaY1kg_BFP-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-18" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-2">
-          <mxGeometry x="1600" y="80" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-19" value="- Stamp duty amount&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-2">
-          <mxGeometry x="1580" y="210" width="130" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-2" source="FqMO8VPMuKaaY1kg_BFP-21" target="FqMO8VPMuKaaY1kg_BFP-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-21" value="Nominal Duty&amp;nbsp;&lt;br&gt;(200 /=)" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-2">
-          <mxGeometry x="1315" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-103" value="- The exemption is rejected and application is forwarded for stamp duty" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-2">
+          <mxGeometry x="1780" y="74" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-22" value="Collector" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=80;fillColor=#d5e8d4;strokeColor=#030303;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="60" y="800" width="2000" height="840" as="geometry" />
+          <mxGeometry x="60" y="800" width="2000" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-24" value="Forward for Assessment" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-22">
           <mxGeometry x="620" y="680" width="200" height="120" as="geometry" />
@@ -130,34 +88,93 @@
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-7" value="Action ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-22">
           <mxGeometry x="195" y="355" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-54" value="The applicant will receive any invoice.&lt;br&gt;(Can apply for Love and affection)" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-22">
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-54" value="The applicant will not receive any invoice.&lt;br&gt;(Can apply for Love and affection)" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-22">
           <mxGeometry x="620" y="520" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-57" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-22">
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-57" value="Applicant receives an invoice with a nominal stamp duty" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-22">
           <mxGeometry x="620" y="360" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-63" value="Return to Applicant" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-22">
           <mxGeometry x="620" y="200" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="FqMO8VPMuKaaY1kg_BFP-65" value="Inputs the&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;sections and chapter&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;for the exemption" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-22">
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-65" value="Inputs the&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;sections and chapter&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;for the exemption&lt;br&gt;&lt;br&gt;* The exemptions should match *" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-22">
           <mxGeometry x="620" y="40" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-30" value="Applicant (From Public)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=80;fillColor=#d5e8d4;strokeColor=#050505;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="60" y="120" width="2010" height="280" as="geometry" />
         </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-31" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-30">
-          <mxGeometry x="136" y="70" width="70" height="70" as="geometry" />
+          <mxGeometry x="226" y="70" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-32" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-30">
-          <mxGeometry x="220" y="45" width="20" height="120" as="geometry" />
+          <mxGeometry x="310" y="45" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-33" value="Initiated by Transfer / Charge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-30">
-          <mxGeometry x="240" y="90" width="110" height="30" as="geometry" />
+          <mxGeometry x="330" y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-30" source="FqMO8VPMuKaaY1kg_BFP-82" target="FqMO8VPMuKaaY1kg_BFP-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-82" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-30">
+          <mxGeometry x="990" y="190" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-83" value="- Stamp duty exempted" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-30">
+          <mxGeometry x="955" y="10" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-30" source="FqMO8VPMuKaaY1kg_BFP-87" target="FqMO8VPMuKaaY1kg_BFP-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-87" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-30">
+          <mxGeometry x="1145" y="190" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-89" value="- Applicant receives application to make changes" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-30">
+          <mxGeometry x="1110" y="10" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-92" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-30">
+          <mxGeometry x="1295" y="190" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-93" value="- Invoice with Nominal amount" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-30">
+          <mxGeometry x="1260" y="10" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-30" source="FqMO8VPMuKaaY1kg_BFP-92" target="FqMO8VPMuKaaY1kg_BFP-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-96" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-30">
+          <mxGeometry x="1445" y="190" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-97" value="- Applicant does not receive any invoice" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="FqMO8VPMuKaaY1kg_BFP-30">
+          <mxGeometry x="1410" y="10" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="FqMO8VPMuKaaY1kg_BFP-30" source="FqMO8VPMuKaaY1kg_BFP-96" target="FqMO8VPMuKaaY1kg_BFP-97">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="FqMO8VPMuKaaY1kg_BFP-31" target="FqMO8VPMuKaaY1kg_BFP-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FqMO8VPMuKaaY1kg_BFP-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="FqMO8VPMuKaaY1kg_BFP-3" target="FqMO8VPMuKaaY1kg_BFP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FqMO8VPMuKaaY1kg_BFP-65" target="FqMO8VPMuKaaY1kg_BFP-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="FqMO8VPMuKaaY1kg_BFP-63" target="FqMO8VPMuKaaY1kg_BFP-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="FqMO8VPMuKaaY1kg_BFP-57" target="FqMO8VPMuKaaY1kg_BFP-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="500.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="FqMO8VPMuKaaY1kg_BFP-54" target="FqMO8VPMuKaaY1kg_BFP-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1620" y="710.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMO8VPMuKaaY1kg_BFP-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="FqMO8VPMuKaaY1kg_BFP-24" target="FqMO8VPMuKaaY1kg_BFP-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
