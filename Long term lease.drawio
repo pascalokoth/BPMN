@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T09:28:56.489Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TKIPt8HOFbJaolN24qwJ" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T09:33:32.451Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="g9CDgD8Iyise7b5LvL2o" version="21.6.7" type="github">
   <diagram name="Page-1" id="zKLuLcW5GbtrUlBjLjGT">
     <mxGraphModel dx="839" dy="1934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -142,8 +142,8 @@
         <mxCell id="bkh3wVoVRuTMWUW65u7u-24" value="Sends notification for the&lt;br&gt;submission of Title/ Lease" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=message;" vertex="1" parent="bkh3wVoVRuTMWUW65u7u-19">
           <mxGeometry x="626" y="188" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bkh3wVoVRuTMWUW65u7u-130" value="&lt;div style=&quot;&quot;&gt;&lt;u style=&quot;background-color: initial;&quot;&gt;OUTPUTS&lt;/u&gt;&lt;/div&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;A new white card will be created&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;An LRA 64 document will be generated&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;A certificate of title/ lease&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="bkh3wVoVRuTMWUW65u7u-19">
-          <mxGeometry x="989" y="80" width="222" height="100" as="geometry" />
+        <mxCell id="bkh3wVoVRuTMWUW65u7u-130" value="&lt;div style=&quot;&quot;&gt;&lt;u style=&quot;background-color: initial;&quot;&gt;OUTPUTS&lt;/u&gt;&lt;/div&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;A new white card will be created&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;The registered Long term leases will be entered as entries in the encumbrance section of the mother parcel&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;An LRA 64 document will be generated&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;A certificate of title/ lease&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="bkh3wVoVRuTMWUW65u7u-19">
+          <mxGeometry x="989" y="20" width="222" height="160" as="geometry" />
         </mxCell>
         <mxCell id="bkh3wVoVRuTMWUW65u7u-32" value="Customer Care Land Registration" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="bkh3wVoVRuTMWUW65u7u-1">
           <mxGeometry x="20" y="710" width="1302" height="139" as="geometry" />
