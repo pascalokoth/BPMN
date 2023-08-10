@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T09:23:01.628Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kWhJ82jGvHrUietxUNE2" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T09:28:56.489Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TKIPt8HOFbJaolN24qwJ" version="21.6.7" type="github">
   <diagram name="Page-1" id="zKLuLcW5GbtrUlBjLjGT">
-    <mxGraphModel dx="1449" dy="2540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="839" dy="1934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -177,7 +177,7 @@
         <mxCell id="bkh3wVoVRuTMWUW65u7u-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bkh3wVoVRuTMWUW65u7u-82" source="bkh3wVoVRuTMWUW65u7u-125" target="bkh3wVoVRuTMWUW65u7u-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bkh3wVoVRuTMWUW65u7u-128" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bkh3wVoVRuTMWUW65u7u-126">
+        <mxCell id="bkh3wVoVRuTMWUW65u7u-128" value="Approves" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bkh3wVoVRuTMWUW65u7u-126">
           <mxGeometry x="-0.2165" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -185,7 +185,7 @@
         <mxCell id="bkh3wVoVRuTMWUW65u7u-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bkh3wVoVRuTMWUW65u7u-82" source="bkh3wVoVRuTMWUW65u7u-125" target="bkh3wVoVRuTMWUW65u7u-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bkh3wVoVRuTMWUW65u7u-129" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bkh3wVoVRuTMWUW65u7u-127">
+        <mxCell id="bkh3wVoVRuTMWUW65u7u-129" value="Rejects" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bkh3wVoVRuTMWUW65u7u-127">
           <mxGeometry x="-0.2857" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
