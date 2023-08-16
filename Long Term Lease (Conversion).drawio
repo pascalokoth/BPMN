@@ -1,9 +1,291 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T09:01:13.343Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.7" etag="bop8pXgOQs-S2g1L6tUw" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T09:48:54.271Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="W-7z6gCpNbj882HPYIIj" version="21.6.7" type="github">
   <diagram name="Page-1" id="z-LJYG3N7nQUt8acbzVx">
-    <mxGraphModel>
+    <mxGraphModel dx="1362" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-1" value="" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="38" y="-27" width="1600" height="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Applicant (Registered Advocate)&lt;/font&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-1">
+          <mxGeometry x="20" width="1580" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-2" source="ZO8-MAQbNHrJnHGYltbH-4" target="ZO8-MAQbNHrJnHGYltbH-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-4" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-2">
+          <mxGeometry x="50" y="54" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-5" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;Upload Required Documents.&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;Long term lease documents&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-2">
+          <mxGeometry x="360" y="43" width="163" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-2" source="ZO8-MAQbNHrJnHGYltbH-7" target="ZO8-MAQbNHrJnHGYltbH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-7" value="&lt;u&gt;Input required parcel data&lt;br&gt;&amp;nbsp;&amp;amp; owner details&lt;br&gt;&lt;/u&gt;" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;bpmnTransferType=input;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-2">
+          <mxGeometry x="157" y="45" width="130" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="692" y="71" as="sourcePoint" />
+            <mxPoint x="789" y="71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-9" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-8">
+          <mxGeometry x="-0.3721" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-13" value="Process Stalls" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-2">
+          <mxGeometry x="789" y="51" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-14" value="Process Stalls" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-2">
+          <mxGeometry x="784" y="176" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="129" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="475" />
+            </Array>
+            <mxPoint x="432" y="474.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-16" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-15">
+          <mxGeometry x="-0.6166" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-17" value="Notifies applicant to recheck details&lt;br&gt;provided and resubmit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-15">
+          <mxGeometry x="0.2061" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-25" value="Advocate makes final submission to the ministry" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-2">
+          <mxGeometry x="813" y="306" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-2" source="ZO8-MAQbNHrJnHGYltbH-30" target="ZO8-MAQbNHrJnHGYltbH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-29" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-28">
+          <mxGeometry x="-0.1872" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-2" source="ZO8-MAQbNHrJnHGYltbH-30" target="ZO8-MAQbNHrJnHGYltbH-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-61" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-60">
+          <mxGeometry x="-0.0435" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-30" value="Makes Payment" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-2">
+          <mxGeometry x="611" y="157" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-59" value="Submits Title" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-2">
+          <mxGeometry x="611" y="31" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-2" source="ZO8-MAQbNHrJnHGYltbH-59" target="ZO8-MAQbNHrJnHGYltbH-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="651" y="27" as="sourcePoint" />
+            <mxPoint x="889" y="227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-64" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-63">
+          <mxGeometry x="-0.7083" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-89" value="Applicat gets notified to collect the new certificate of lease with the new generated numbers from survey" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-2">
+          <mxGeometry x="1110" y="100" width="147" height="89.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-93" value="Process Stalls" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-2">
+          <mxGeometry x="1312" y="288" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-31" value="System&amp;nbsp;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-1">
+          <mxGeometry x="20" y="410" width="1580" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-32" value="Validate" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-31">
+          <mxGeometry x="402" y="22.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-33" value="&lt;ul&gt;&lt;li&gt;Generates a ticket to Land Registration for submission of the Long term lease document&lt;/li&gt;&lt;li&gt;Generates an invoice of a standard registration fee&lt;/li&gt;&lt;li&gt;Sends a notification to the DOS to initiate internal Long term survey &lt;i&gt;&lt;b&gt;(Refer to long term lease application process flow)&lt;/b&gt;&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-31">
+          <mxGeometry x="330" y="150" width="223" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-31" source="ZO8-MAQbNHrJnHGYltbH-32" target="ZO8-MAQbNHrJnHGYltbH-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-35" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-34">
+          <mxGeometry x="-0.2985" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-36" value="Sends notification for the&lt;br&gt;submission of Title/ Lease" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=message;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-31">
+          <mxGeometry x="626" y="188" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-31" source="ZO8-MAQbNHrJnHGYltbH-78" target="ZO8-MAQbNHrJnHGYltbH-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-81" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-80">
+          <mxGeometry x="0.1818" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-31" source="ZO8-MAQbNHrJnHGYltbH-78" target="ZO8-MAQbNHrJnHGYltbH-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-86" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-85">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-78" value="Long term survey process completed" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-31">
+          <mxGeometry x="1116" y="207" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-31" source="ZO8-MAQbNHrJnHGYltbH-79" target="ZO8-MAQbNHrJnHGYltbH-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-79" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Generates title with new parcel number(s)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Adds entries in the proprietorship section on changes in parcel number from the long term survey process&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Sends notification to applicant to make the long term survey payments before collecting the new certificate of lease&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-31">
+          <mxGeometry x="1056" y="20" width="254" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-84" value="&lt;ul style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Generates certificate of lease with current parcel number(s)&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Adds entries in the encumbrance section on pending invoices of the long term survey process&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Sends notification to the applicant to collect the certificate of lease&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-31">
+          <mxGeometry x="1346" y="196" width="224" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-87" value="pays pending invoices" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-31">
+          <mxGeometry x="1138" y="-153" width="90" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-38" value="Customer Care Land Registration" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-1">
+          <mxGeometry x="20" y="740" width="1580" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-39" value="Receives the surrendered Title/ Lease and forwards it to the assigned officer" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-38">
+          <mxGeometry x="791" y="39" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-1" source="ZO8-MAQbNHrJnHGYltbH-5" target="ZO8-MAQbNHrJnHGYltbH-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-41" value="First Submission" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-40">
+          <mxGeometry x="-0.2092" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-42" value="Investigating Officer" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-1">
+          <mxGeometry x="20" y="879" width="1580" height="311" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-43" value="&lt;u&gt;Investigating officer &lt;/u&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;checks the application details for errors/omission&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Adds a new entry to the register with the new parcel numbers from survey&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Forwards to Registrar for final approval/ rejection&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-42">
+          <mxGeometry x="759" y="150" width="229" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-69" value="Investigating officer checks the application&amp;nbsp;for errors/ omission&amp;nbsp;and forwards to Registrar for final approval/ rejection" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-42">
+          <mxGeometry x="995" y="25" width="154" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-42" target="ZO8-MAQbNHrJnHGYltbH-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="873" y="111" as="sourcePoint" />
+            <mxPoint x="873" y="158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-77" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-73">
+          <mxGeometry x="-0.364" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-42" source="ZO8-MAQbNHrJnHGYltbH-71" target="ZO8-MAQbNHrJnHGYltbH-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-76" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-75">
+          <mxGeometry x="-0.2245" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-71" value="Long term survey process completed" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-42">
+          <mxGeometry x="803" y="20" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-44" value="Registrar" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-1">
+          <mxGeometry x="20" y="1190" width="1580" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-45" value="Registrar approves the application" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-44">
+          <mxGeometry x="794" y="158" width="159" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-46" value="Process Ends" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-44">
+          <mxGeometry x="993" y="43" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-44" source="ZO8-MAQbNHrJnHGYltbH-51" target="ZO8-MAQbNHrJnHGYltbH-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-48" value="Approves" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-47">
+          <mxGeometry x="-0.2165" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-44" source="ZO8-MAQbNHrJnHGYltbH-51" target="ZO8-MAQbNHrJnHGYltbH-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-50" value="Rejects" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-49">
+          <mxGeometry x="-0.2857" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-51" value="Approves Application" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-44">
+          <mxGeometry x="823" y="26" width="100" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-1" source="ZO8-MAQbNHrJnHGYltbH-43" target="ZO8-MAQbNHrJnHGYltbH-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="893" y="1097" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-1" source="ZO8-MAQbNHrJnHGYltbH-25" target="ZO8-MAQbNHrJnHGYltbH-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="893" y="672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-1" source="ZO8-MAQbNHrJnHGYltbH-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1206" y="707" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-1" source="ZO8-MAQbNHrJnHGYltbH-39" target="ZO8-MAQbNHrJnHGYltbH-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-1" source="ZO8-MAQbNHrJnHGYltbH-87" target="ZO8-MAQbNHrJnHGYltbH-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-95" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-90">
+          <mxGeometry x="-0.2585" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-1" source="ZO8-MAQbNHrJnHGYltbH-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1333" y="309.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-94" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-92">
+          <mxGeometry x="-0.3217" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZO8-MAQbNHrJnHGYltbH-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="709" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-57" value="&lt;ul&gt;&lt;li&gt;Advocate, proprietors and/or their signatories append their signatures&lt;/li&gt;&lt;li&gt;The involved parties verify the application with a OTP&lt;/li&gt;&lt;li&gt;Pays the registration fees&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="605" y="249" width="208" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZO8-MAQbNHrJnHGYltbH-33" target="ZO8-MAQbNHrJnHGYltbH-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="578" y="579.5" as="sourcePoint" />
+            <mxPoint x="696" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="611" y="597" />
+              <mxPoint x="710" y="597" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-65" value="&lt;i&gt;&lt;b&gt;(During this time, long term survey will be flowing concurrently with the conversion process.)&lt;/b&gt;&lt;/i&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="680" y="775" width="160" height="488" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
