@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T13:10:37.542Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qMfQEzijJPFb9yMqBUa5" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-18T07:41:15.854Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qZ_qFuSeUQhQd1VFkQ8h" version="21.6.7" type="github">
   <diagram name="Page-1" id="z-LJYG3N7nQUt8acbzVx">
-    <mxGraphModel dx="1362" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1361" dy="1749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,33 +125,11 @@
         <mxCell id="ZO8-MAQbNHrJnHGYltbH-36" value="Sends notification for the&lt;br&gt;submission of Title/ Lease" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=message;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-31">
           <mxGeometry x="626" y="188" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-31" source="ZO8-MAQbNHrJnHGYltbH-78" target="ZO8-MAQbNHrJnHGYltbH-79">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-81" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-80">
-          <mxGeometry x="0.1818" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-31" source="ZO8-MAQbNHrJnHGYltbH-78" target="ZO8-MAQbNHrJnHGYltbH-84">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-86" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-85">
-          <mxGeometry x="-0.2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-78" value="Long term survey process completed" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-31">
-          <mxGeometry x="1116" y="207" width="140" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="ZO8-MAQbNHrJnHGYltbH-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-31" source="ZO8-MAQbNHrJnHGYltbH-79" target="ZO8-MAQbNHrJnHGYltbH-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-79" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Generates title with new parcel number(s)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Adds entries in the proprietorship section on changes in parcel number from the long term survey process&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Sends notification to applicant to make the long term survey payments before collecting the new certificate of lease&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-31">
-          <mxGeometry x="1056" y="20" width="254" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-84" value="&lt;ul style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Generates certificate of lease with current parcel number(s)&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Adds entries in the encumbrance section on pending invoices of the long term survey process&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Sends notification to the applicant to collect the certificate of lease&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-31">
-          <mxGeometry x="1346" y="196" width="224" height="112" as="geometry" />
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-79" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Generates certificate of lease with current parcel number(s)/ new parcel number(s) based on completion of the survey process&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Adds entries in the proprietorship section on changes in parcel number from the long term survey process&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Sends notification to applicant to make the long term survey payments before collecting the new certificate of lease if survey is complete&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Sends notification to the applicant to collect the certificate of lease if survey is not complete&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-31">
+          <mxGeometry x="1014" y="67" width="339" height="210" as="geometry" />
         </mxCell>
         <mxCell id="ZO8-MAQbNHrJnHGYltbH-87" value="pays pending invoices" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-31">
           <mxGeometry x="1138" y="-153" width="90" height="105" as="geometry" />
@@ -173,33 +151,8 @@
         <mxCell id="ZO8-MAQbNHrJnHGYltbH-42" value="Investigating Officer" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-1">
           <mxGeometry x="20" y="879" width="1580" height="311" as="geometry" />
         </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-43" value="&lt;u&gt;Investigating officer &lt;/u&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;checks the application details for errors/omission&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Adds a new entry to the register with the new parcel numbers from survey&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Forwards to Registrar for final approval/ rejection&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-42">
-          <mxGeometry x="759" y="150" width="229" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-69" value="Investigating officer checks the application&amp;nbsp;for errors/ omission&amp;nbsp;and forwards to Registrar for final approval/ rejection" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-42">
-          <mxGeometry x="995" y="25" width="154" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-42" target="ZO8-MAQbNHrJnHGYltbH-43">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="873" y="111" as="sourcePoint" />
-            <mxPoint x="873" y="158" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-77" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-73">
-          <mxGeometry x="-0.364" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-42" source="ZO8-MAQbNHrJnHGYltbH-71" target="ZO8-MAQbNHrJnHGYltbH-69">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-76" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZO8-MAQbNHrJnHGYltbH-75">
-          <mxGeometry x="-0.2245" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-71" value="Long term survey process completed" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-42">
-          <mxGeometry x="803" y="20" width="140" height="90" as="geometry" />
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-43" value="&lt;u&gt;Investigating officer &lt;/u&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;checks the application details for errors/omission&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Adds a new entry to the register with the new parcel numbers from survey (in case the long term survey is completed) or with the current parcel number if survey is not done&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Forwards to Registrar for final approval/ rejection&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-42">
+          <mxGeometry x="748" y="63" width="251" height="187" as="geometry" />
         </mxCell>
         <mxCell id="ZO8-MAQbNHrJnHGYltbH-44" value="Registrar" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="ZO8-MAQbNHrJnHGYltbH-1">
           <mxGeometry x="20" y="1190" width="1580" height="230" as="geometry" />
@@ -239,13 +192,15 @@
             <mxPoint x="893" y="672" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-1" source="ZO8-MAQbNHrJnHGYltbH-45">
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-1" source="ZO8-MAQbNHrJnHGYltbH-45" target="ZO8-MAQbNHrJnHGYltbH-79">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1206" y="707" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZO8-MAQbNHrJnHGYltbH-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-1" source="ZO8-MAQbNHrJnHGYltbH-39" target="ZO8-MAQbNHrJnHGYltbH-71">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ZO8-MAQbNHrJnHGYltbH-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-1" source="ZO8-MAQbNHrJnHGYltbH-39" target="ZO8-MAQbNHrJnHGYltbH-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="893" y="899" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZO8-MAQbNHrJnHGYltbH-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZO8-MAQbNHrJnHGYltbH-1" source="ZO8-MAQbNHrJnHGYltbH-87" target="ZO8-MAQbNHrJnHGYltbH-89">
           <mxGeometry relative="1" as="geometry" />
