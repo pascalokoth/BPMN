@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T06:20:59.111Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="142od0bJxwchzzNAoX67" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T06:26:55.936Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="2tzmT2PIO96HPnjPXIzi" version="21.6.9" type="github">
   <diagram name="Page-1" id="FzcEcahukAQPrRjECopd">
     <mxGraphModel dx="1434" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
         <mxCell id="pYy6UzKFlbibeBHJYhZE-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pYy6UzKFlbibeBHJYhZE-26" source="pYy6UzKFlbibeBHJYhZE-33" target="pYy6UzKFlbibeBHJYhZE-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pYy6UzKFlbibeBHJYhZE-33" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Adds entries in the proprietorship section on the child parcel for the surrendered certificate of lease&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Generates LRA 65 document&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="pYy6UzKFlbibeBHJYhZE-26">
+        <mxCell id="pYy6UzKFlbibeBHJYhZE-33" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Cancels the entry in the proprietorship section on the child parcel.&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Closes the child parcel register&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Revives the previous owner&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="pYy6UzKFlbibeBHJYhZE-26">
           <mxGeometry x="1076" y="120" width="213" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pYy6UzKFlbibeBHJYhZE-61" value="&lt;u&gt;Output Document&lt;/u&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LRA 65 document&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="pYy6UzKFlbibeBHJYhZE-26">
