@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T05:36:22.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.2" etag="a3o4dBEx8wRpDoif1WAW" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T06:50:42.806Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vuLC9OAmNEwrrPlVllwB" version="22.0.4" type="github">
   <diagram name="Page-1" id="4DEe41UftpbT3Fw9ppHz">
-    <mxGraphModel>
+    <mxGraphModel dx="1362" dy="-297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zYC676_rGl-Av8-1DCO_-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Applicant (SELF)&lt;/font&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1221" width="1020" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="zYC676_rGl-Av8-1DCO_-5" source="zYC676_rGl-Av8-1DCO_-7" target="zYC676_rGl-Av8-1DCO_-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-7" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="zYC676_rGl-Av8-1DCO_-5">
+          <mxGeometry x="50" y="78" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zYC676_rGl-Av8-1DCO_-5" source="zYC676_rGl-Av8-1DCO_-8" target="zYC676_rGl-Av8-1DCO_-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-8" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;Parties to be listed/ provided.&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;Guarantors&lt;/li&gt;&lt;li&gt;Administrator&lt;/li&gt;&lt;li&gt;Advocate&lt;/li&gt;&lt;li&gt;Date&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zYC676_rGl-Av8-1DCO_-5">
+          <mxGeometry x="360" y="45" width="150" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zYC676_rGl-Av8-1DCO_-5" source="zYC676_rGl-Av8-1DCO_-10" target="zYC676_rGl-Av8-1DCO_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-10" value="&lt;u&gt;P &amp;amp; A 57 Invoicing&lt;br&gt;&lt;/u&gt;" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;bpmnTransferType=input;" vertex="1" parent="zYC676_rGl-Av8-1DCO_-5">
+          <mxGeometry x="157" y="69" width="130" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zYC676_rGl-Av8-1DCO_-5" source="zYC676_rGl-Av8-1DCO_-23" target="zYC676_rGl-Av8-1DCO_-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-23" value="Makes Payment" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="zYC676_rGl-Av8-1DCO_-5">
+          <mxGeometry x="610" y="111" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-31" value="&lt;u&gt;System Generates Invoice&lt;/u&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Invoice amount of 200/=&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="zYC676_rGl-Av8-1DCO_-5">
+          <mxGeometry x="352" y="266.5" width="165" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="zYC676_rGl-Av8-1DCO_-5" source="zYC676_rGl-Av8-1DCO_-31" target="zYC676_rGl-Av8-1DCO_-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-43" value="Payment done - receives a receipt" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="zYC676_rGl-Av8-1DCO_-5">
+          <mxGeometry x="610" y="3" width="80" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-30" value="SYSTEM" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1451" width="1020" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-40" value="System starts to generate penalties 30 days after the invoice was generated. An interest of 5% is charged per quarter&lt;span id=&quot;docs-internal-guid-0fd31187-7fff-ed16-ff31-e2fec439de62&quot;&gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="zYC676_rGl-Av8-1DCO_-30">
+          <mxGeometry x="770" y="36.5" width="160" height="93.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYC676_rGl-Av8-1DCO_-23" target="zYC676_rGl-Av8-1DCO_-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-42" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zYC676_rGl-Av8-1DCO_-41">
+          <mxGeometry y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zYC676_rGl-Av8-1DCO_-50" value="Key points to note are: &lt;br&gt;1. All the other self invoicing processes follow the same flow, the only difference is the requirements. Below is a list of all self invoicing processes and their requirements&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Commissioner of Oaths - No requirements needed. Invoice amount - 200/=&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Letters - Parties involved and date. Invoice amount - 200/=&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Guarantee &amp;amp; Indemnity - Guarantors, Bank involved &amp;amp; date. Invoice amount 200/=&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Bonds - Parties involved &amp;amp; date. Invoice amount 200/=&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Contracts&amp;nbsp;- Parties involved &amp;amp; date. Invoice amount 200/=&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Appointment of Agent&amp;nbsp;- Parties involved &amp;amp; date. Invoice amount 200/=&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Guarantee&amp;nbsp;- Parties involved &amp;amp; date. Invoice amount 200/=&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Mining Certificate -&amp;nbsp; &amp;nbsp; &amp;nbsp; Mining holder(Owner),&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;ul&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Issuing Ministry&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Date&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Invoice Amount 200/=&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Franking machine - Amount is provided by self&lt;/li&gt;&lt;ul&gt;&lt;ul&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Franking date&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1690" width="1020" height="300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
