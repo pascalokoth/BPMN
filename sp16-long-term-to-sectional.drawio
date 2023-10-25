@@ -1,9 +1,301 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T05:41:46.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.7" etag="EpQLhCM4xIckwiZAYoTg" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T08:25:09.618Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="M6Chr0xgQB6Tyl37gJLp" version="22.0.7" type="github">
   <diagram name="Page-1" id="BnFFy7sRCsdllHE7iU50">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="1962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="u4M3DTdua2qcdFATZTpG-1" value="" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-27" width="2220" height="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Applicants - Developer/ Management Company or Owner(s)&lt;/font&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-1">
+          <mxGeometry x="20" width="2200" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="u4M3DTdua2qcdFATZTpG-2" source="u4M3DTdua2qcdFATZTpG-4" target="u4M3DTdua2qcdFATZTpG-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-4" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-2">
+          <mxGeometry x="50" y="54" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-5" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;Upload Required Documents.&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;Sectional Plan (Mandatory)&lt;/li&gt;&lt;li&gt;Sub-lease/ Long-term leases&lt;/li&gt;&lt;li&gt;Original title of the Land&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-2">
+          <mxGeometry x="1016" y="33" width="220" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="u4M3DTdua2qcdFATZTpG-2" source="u4M3DTdua2qcdFATZTpG-7" target="u4M3DTdua2qcdFATZTpG-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="422" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-7" value="&lt;u&gt;Input all unit parcels data&lt;br&gt;&amp;nbsp;&amp;amp; all unit owners &lt;br&gt;(All parties - unit owners must have registered in the system)&lt;br&gt;&lt;/u&gt;" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;bpmnTransferType=input;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-2">
+          <mxGeometry x="157" y="45" width="130" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-10" value="Process Stalls" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-2">
+          <mxGeometry x="1739" y="81" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-11" value="Process Stalls" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-2">
+          <mxGeometry x="1743" y="236" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u4M3DTdua2qcdFATZTpG-2" source="u4M3DTdua2qcdFATZTpG-21" target="u4M3DTdua2qcdFATZTpG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-113" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-112">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-21" value="Submits Title" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-2">
+          <mxGeometry x="1581" y="61" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-24" value="&lt;ul&gt;&lt;li&gt;Applicant gets notified to collect the new sectional titles&lt;/li&gt;&lt;li&gt;Encumbered units titles will be collected by their respective chargee&#39;s pick-up persons&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-2">
+          <mxGeometry x="1950" y="136" width="210" height="89.5" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u4M3DTdua2qcdFATZTpG-2" source="u4M3DTdua2qcdFATZTpG-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-70" value="False - no &lt;br&gt;encumbrance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-69">
+          <mxGeometry x="-0.2453" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u4M3DTdua2qcdFATZTpG-2" source="u4M3DTdua2qcdFATZTpG-67" target="u4M3DTdua2qcdFATZTpG-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-73" value="True - with&amp;nbsp;&lt;br&gt;Encumbarance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-72">
+          <mxGeometry x="-0.3059" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-67" value="Where property is encumbared/ charged" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-2">
+          <mxGeometry x="370" y="13.5" width="151" height="130.5" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="u4M3DTdua2qcdFATZTpG-2" source="u4M3DTdua2qcdFATZTpG-71" target="u4M3DTdua2qcdFATZTpG-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="713" y="227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-76" value="Proceed to documents&lt;br&gt;upload" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-75">
+          <mxGeometry x="-0.6824" y="-1" relative="1" as="geometry">
+            <mxPoint x="346" y="-209" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-71" value="Applicant indicates the owner with encumbrance and adds the chargee - financial institution" style="whiteSpace=wrap;html=1;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-2">
+          <mxGeometry x="363.5" y="259.25" width="164.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="u4M3DTdua2qcdFATZTpG-2" source="u4M3DTdua2qcdFATZTpG-85" target="u4M3DTdua2qcdFATZTpG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1005" y="81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-85" value="&lt;ul&gt;&lt;li&gt;Applicant adds one pick-up person on non-encumbered units.&lt;/li&gt;&lt;li&gt;Chargee/ financial institution adds their own pick-up person&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-2">
+          <mxGeometry x="640" y="41" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-95" value="Chargee&lt;br&gt;Verifys OTP and adds&amp;nbsp;&lt;br&gt;their pick-up&lt;br&gt;person" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-2">
+          <mxGeometry x="1284" y="14.5" width="150" height="130.5" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-26" value="System&amp;nbsp;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-1">
+          <mxGeometry x="20" y="420" width="2200" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-27" value="Validate" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-26">
+          <mxGeometry x="1086" y="52.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-28" value="&lt;ul&gt;&lt;li&gt;Generates a ticket to applicant for the submission of the original- mother title&lt;/li&gt;&lt;li&gt;Partial sold units will attract stamp duty fee (Units that are not sold at the point of this application)&lt;/li&gt;&lt;li&gt;Generates an invoice of a standard registration fee&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-26">
+          <mxGeometry x="1469" y="192" width="303" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="u4M3DTdua2qcdFATZTpG-26" source="u4M3DTdua2qcdFATZTpG-27" target="u4M3DTdua2qcdFATZTpG-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="949" y="197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-30" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-29">
+          <mxGeometry x="-0.2985" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-77" value="Mother parcel inactive&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;in survey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-29">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-31" value="Sends notification for the&lt;br&gt;submission of Mother Title/ Lease" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=message;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-26">
+          <mxGeometry x="1596" y="53" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u4M3DTdua2qcdFATZTpG-26" source="u4M3DTdua2qcdFATZTpG-20" target="u4M3DTdua2qcdFATZTpG-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-81" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-80">
+          <mxGeometry x="-0.2941" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u4M3DTdua2qcdFATZTpG-26" source="u4M3DTdua2qcdFATZTpG-20" target="u4M3DTdua2qcdFATZTpG-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-84" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-83">
+          <mxGeometry x="-0.0411" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-20" value="Encumbered Units" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-26">
+          <mxGeometry x="1056" y="215" width="141" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-82" value="&lt;br&gt;&lt;ul style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Sends notification to the chargee/ financial institution to verify the application via OTP&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Generates a ticket to the chargee/ financial institution for the submission of the long-term lease they hold&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-26">
+          <mxGeometry x="1000.5" y="368" width="250.5" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-90" value="Chargee&lt;br&gt;Submit sub-lease/ Long term-lease Document" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-26">
+          <mxGeometry x="1284" y="-210" width="150" height="130.5" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-93" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="u4M3DTdua2qcdFATZTpG-26" source="u4M3DTdua2qcdFATZTpG-82" target="u4M3DTdua2qcdFATZTpG-90">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1220" y="107" as="sourcePoint" />
+            <mxPoint x="1380" y="107" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1360" y="417" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-39" value="Investigating Officer" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-1">
+          <mxGeometry x="20" y="1030" width="2200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-40" value="&lt;u&gt;Investigating officer &lt;/u&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;checks the application details for errors/omission&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Can return if errors are noted for rectifications&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Forwards to Registrar for final approval/ rejection&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-39">
+          <mxGeometry x="1736" y="48" width="251" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-41" value="Registrar" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-1">
+          <mxGeometry x="20" y="1230" width="2200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-43" value="Process Ends" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-41">
+          <mxGeometry x="1836" y="150" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="u4M3DTdua2qcdFATZTpG-41" source="u4M3DTdua2qcdFATZTpG-48" target="u4M3DTdua2qcdFATZTpG-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-47" value="Rejects" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-46">
+          <mxGeometry x="-0.2857" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-48" value="Approves Application" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="u4M3DTdua2qcdFATZTpG-41">
+          <mxGeometry x="1811" y="26" width="100" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="u4M3DTdua2qcdFATZTpG-1" source="u4M3DTdua2qcdFATZTpG-40" target="u4M3DTdua2qcdFATZTpG-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1881" y="1097" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="u4M3DTdua2qcdFATZTpG-1" source="u4M3DTdua2qcdFATZTpG-5" target="u4M3DTdua2qcdFATZTpG-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1299" y="226.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-66" value="Applicants submits&lt;br&gt;&amp;nbsp;application" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-65">
+          <mxGeometry x="-0.3038" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="u4M3DTdua2qcdFATZTpG-1" source="u4M3DTdua2qcdFATZTpG-27" target="u4M3DTdua2qcdFATZTpG-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="187" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="513" />
+            </Array>
+            <mxPoint x="452" y="474.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-13" value="Mother parcel active&lt;br&gt;&amp;nbsp;in survey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-12">
+          <mxGeometry x="-0.6166" y="-1" relative="1" as="geometry">
+            <mxPoint x="-208" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-14" value="Notifies applicant to proceed to survey and &lt;br&gt;make amendments before re-applying" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-12">
+          <mxGeometry x="0.2061" relative="1" as="geometry">
+            <mxPoint x="-103" y="-266" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u4M3DTdua2qcdFATZTpG-1" source="u4M3DTdua2qcdFATZTpG-90" target="u4M3DTdua2qcdFATZTpG-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u4M3DTdua2qcdFATZTpG-1" source="u4M3DTdua2qcdFATZTpG-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u4M3DTdua2qcdFATZTpG-1" source="u4M3DTdua2qcdFATZTpG-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="1077" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1641" y="37" />
+              <mxPoint x="1900" y="37" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-117" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-116">
+          <mxGeometry x="-0.7812" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="u4M3DTdua2qcdFATZTpG-1" target="u4M3DTdua2qcdFATZTpG-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1930" y="1298" as="sourcePoint" />
+            <mxPoint x="2084.5" y="227" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2075" y="1298" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-45" value="Approves" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-44">
+          <mxGeometry x="-0.2165" y="-1" relative="1" as="geometry">
+            <mxPoint x="-77" y="332" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u4M3DTdua2qcdFATZTpG-78" target="u4M3DTdua2qcdFATZTpG-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-103" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-101">
+          <mxGeometry x="-0.0526" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u4M3DTdua2qcdFATZTpG-78" target="u4M3DTdua2qcdFATZTpG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-104" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-102">
+          <mxGeometry x="-0.3026" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-78" value="Makes Payment" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1621" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-97" value="Sends notification to chargee&lt;br&gt;&amp;nbsp;for the submission of sub-lease/&lt;br&gt;&amp;nbsp;long-term lease document &amp;amp;&lt;br&gt;add pick-up person" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="1375.5" y="786" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-105" value="Process Stalls" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="1545" y="227" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="u4M3DTdua2qcdFATZTpG-105" source="u4M3DTdua2qcdFATZTpG-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1470" y="248" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-107" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-106">
+          <mxGeometry x="-0.3026" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-108" value="Process Stalls" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="1541" y="32" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="u4M3DTdua2qcdFATZTpG-108" source="u4M3DTdua2qcdFATZTpG-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1470" y="53" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4M3DTdua2qcdFATZTpG-110" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u4M3DTdua2qcdFATZTpG-109">
+          <mxGeometry x="-0.3026" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
