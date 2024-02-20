@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T07:07:51.853Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="0dZTFnRJlBidTH3Es0Vl" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T07:39:23.861Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="OboALi0o7ZSeoJV4f1kn" version="23.1.5" type="github">
   <diagram name="Page-1" id="X-Ikt2yS38_xHKI1-joO">
     <mxGraphModel dx="1194" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,26 +13,65 @@
         <mxCell id="FhZttKuwCezYCY0k29h0-1" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" parent="FhZttKuwCezYCY0k29h0-20" vertex="1">
           <mxGeometry x="770" y="41" width="50" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="FhZttKuwCezYCY0k29h0-26" value="Public Api Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" parent="FhZttKuwCezYCY0k29h0-20" vertex="1">
+        <mxCell id="FhZttKuwCezYCY0k29h0-26" value="Public Api Gateway&lt;br&gt;192.168.50.40" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" parent="FhZttKuwCezYCY0k29h0-20" vertex="1">
           <mxGeometry x="50" y="168.5" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="FhZttKuwCezYCY0k29h0-29" value="ACL Service" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="FhZttKuwCezYCY0k29h0-20" vertex="1">
-          <mxGeometry x="280" y="10" width="300" height="150" as="geometry" />
+          <mxGeometry x="280" y="10" width="260" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="FhZttKuwCezYCY0k29h0-31" value="Staff Api Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" parent="FhZttKuwCezYCY0k29h0-20" vertex="1">
+        <mxCell id="CQuIktSU1pAItVcYqkuW-22" value="192.168.50.133&lt;br&gt;Ubuntu&lt;br&gt;32 GB&lt;br&gt;32 Cores" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FhZttKuwCezYCY0k29h0-29">
+          <mxGeometry x="30" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CQuIktSU1pAItVcYqkuW-32" value="Usermanagement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FhZttKuwCezYCY0k29h0-29">
+          <mxGeometry x="140" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FhZttKuwCezYCY0k29h0-31" value="Staff Api Gateway&lt;br&gt;192.168.50.31" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" parent="FhZttKuwCezYCY0k29h0-20" vertex="1">
           <mxGeometry x="50" y="328.5" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="FhZttKuwCezYCY0k29h0-37" value="Payment Service" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="FhZttKuwCezYCY0k29h0-20" vertex="1">
-          <mxGeometry x="280" y="178.5" width="300" height="150" as="geometry" />
+          <mxGeometry x="280" y="140" width="260" height="111.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CQuIktSU1pAItVcYqkuW-23" value="&lt;span style=&quot;background-color: initial;&quot;&gt;192.168.50.132&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Ubuntu&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;32 GB&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;32 Cores&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FhZttKuwCezYCY0k29h0-37">
+          <mxGeometry x="30" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CQuIktSU1pAItVcYqkuW-33" value="Payment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FhZttKuwCezYCY0k29h0-37">
+          <mxGeometry x="160" y="20" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FhZttKuwCezYCY0k29h0-39" value="Tier 1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="FhZttKuwCezYCY0k29h0-20" vertex="1">
-          <mxGeometry x="280" y="340" width="300" height="150" as="geometry" />
+          <mxGeometry x="280" y="290" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CQuIktSU1pAItVcYqkuW-25" value="&lt;span style=&quot;background-color: initial;&quot;&gt;192.168.50.37&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Ubuntu&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;64 GB&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;64 Cores&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FhZttKuwCezYCY0k29h0-39">
+          <mxGeometry x="30" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CQuIktSU1pAItVcYqkuW-24" value="Shared Service&lt;br&gt;Workflow Service&lt;br&gt;Registration Bureau" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FhZttKuwCezYCY0k29h0-39">
+          <mxGeometry x="150" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CQuIktSU1pAItVcYqkuW-1" value="Tier 2" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="FhZttKuwCezYCY0k29h0-20">
-          <mxGeometry x="280" y="510" width="300" height="150" as="geometry" />
+          <mxGeometry x="280" y="421.5" width="260" height="98.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CQuIktSU1pAItVcYqkuW-26" value="192.168.50.38&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Ubuntu&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;64 GB&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;64 Cores&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="CQuIktSU1pAItVcYqkuW-1">
+          <mxGeometry x="25" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CQuIktSU1pAItVcYqkuW-27" value="Land Administration&lt;br&gt;Land Survey&lt;br&gt;Land Valuation&lt;br&gt;Physical Planning" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="CQuIktSU1pAItVcYqkuW-1">
+          <mxGeometry x="150" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="CQuIktSU1pAItVcYqkuW-16" value="Tier 3" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="FhZttKuwCezYCY0k29h0-20">
-          <mxGeometry x="280" y="670" width="300" height="150" as="geometry" />
+          <mxGeometry x="280" y="550" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CQuIktSU1pAItVcYqkuW-28" value="Event Service&lt;br&gt;Configuration Service&lt;br&gt;Ticketing Service&lt;br&gt;NLC Land Admin&lt;br&gt;NLC Land Valuation&lt;br&gt;Dispatch Service" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="CQuIktSU1pAItVcYqkuW-16">
+          <mxGeometry x="140" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CQuIktSU1pAItVcYqkuW-29" value="192.168.50.39&lt;br&gt;Ubuntu&lt;br&gt;32 GB&lt;br&gt;32 Cores" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="CQuIktSU1pAItVcYqkuW-16">
+          <mxGeometry x="30" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CQuIktSU1pAItVcYqkuW-18" value="Tier 5" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="FhZttKuwCezYCY0k29h0-20">
+          <mxGeometry x="280" y="720" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CQuIktSU1pAItVcYqkuW-30" value="Stamp duty service&lt;br&gt;Land Registration" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="CQuIktSU1pAItVcYqkuW-18">
+          <mxGeometry x="140" y="10" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CQuIktSU1pAItVcYqkuW-31" value="192.168.50.127&lt;br&gt;Ubuntu&lt;br&gt;32 GB&lt;br&gt;32 Cores&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="CQuIktSU1pAItVcYqkuW-18">
+          <mxGeometry x="25" width="110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="FhZttKuwCezYCY0k29h0-25" value="Client App" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="200" height="480" as="geometry" />
@@ -51,9 +90,6 @@
         </mxCell>
         <mxCell id="FhZttKuwCezYCY0k29h0-36" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1120" y="60" width="80" height="410" as="geometry" />
-        </mxCell>
-        <mxCell id="CQuIktSU1pAItVcYqkuW-18" value="Tier 5" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="870" width="300" height="150" as="geometry" />
         </mxCell>
         <mxCell id="FhZttKuwCezYCY0k29h0-38" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Database_for_PostgreSQL_servers.svg;" parent="1" vertex="1">
           <mxGeometry x="960" y="-120" width="98.8" height="130" as="geometry" />
